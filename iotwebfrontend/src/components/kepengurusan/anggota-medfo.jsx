@@ -16,15 +16,15 @@ import './kepengurusan.css';
 
 const baseImages = [
   {
-    src: 'src/public/medfo.webp',
+    src: '/kepengurusan/medfo.webp',
     href: 'https://www.instagram.com/p/DMNAZGpxtCN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
   },
   {
-    src: 'src/public/humas.webp',
+    src: '/kepengurusan/humas.webp',
     href: 'https://www.instagram.com/p/DMM_1IpxBPU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
   },
   {
-    src: 'src/public/Medkraf.webp',
+    src: '/kepengurusan/Medkraf.webp',
     href: 'https://www.instagram.com/p/DMNB-72R3MD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
   },
 ];
@@ -145,7 +145,7 @@ const ImageSliderMedfo = () => {
       <div className="absolute h-[30%] px-[30px] top-1/2 left-0 right-0 flex justify-between items-center transform -translate-y-1/2 z-50 pointer-events-none ">
         <div className="relative flex items-center justify-end h-full w-[200px] pointer-events-auto z-0 duration-[1s] translate-x-[-160px] group">
           <img
-            src="src/public/Chevron/chevron-left.webp"
+            src="/kepengurusan/Chevron/chevron-left.webp"
             alt="kiri"
             className="top-1/2 -translate-y-1/2 absolute translate-x-[70px] sm:translate-x-[45px] w-auto h-auto scale-[0.5] sm:scale-[0.8] md:scale-[1]"
           ></img>
@@ -156,7 +156,7 @@ const ImageSliderMedfo = () => {
         </div>
         <div className="relative flex items-center  h-full w-[200px] pointer-events-auto z-0 duration-[1s] translate-x-[160px] group">
           <img
-            src="src/public/Chevron/chevron-right.webp"
+            src="/kepengurusan/Chevron/chevron-right.webp"
             alt="kanan"
             className="top-1/2 -translate-y-1/2 absolute translate-x-[-70px] sm:translate-x-[-45px] w-auto h-auto scale-[0.5] sm:scale-[0.8] md:scale-[1]"
           ></img>
